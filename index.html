@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cards in Carousel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap scripts -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('body').bootstrapMaterialDesign();
+        });
+    </script>
+    <!-- Bootstrap scripts -->
+
+    <!-- Font Awesome Script -->
+    <link href="./fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
+    <!-- Font Awesome Script -->
+
+    <style>
+        /* CSS Code Related to the Card Carousel Component */
+
+        .button-div {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 1rem 0;
+        }
+
+        .card {
+            height: 27.5rem;
+            box-shadow: none;
+            border: 3px solid black;
+        }
+
+        img {
+            height: 14rem;
+        }
+
+        .carousel-control-prev::after {
+            content: "<";
+            font-size: 3rem;
+            color: black;
+            padding-right: 4rem;
+        }
+
+        .carousel-control-next::after {
+            content: ">";
+            font-size: 3rem;
+            color: black;
+            padding-left: 4rem;
+        }
+
+        /* CSS Code Related to the Card Carousel Component */
+
+        .heading-div {
+            font-size: 4rem;
+            text-align: center;
+            padding: 3rem 0;
+
+        }
+
+        .footer-div {
+            font-size: 1.5rem;
+            position: absolute;
+            bottom: 10px;
+            left: 42.5%;
+        }
+
+        .footer-div div {
+            width: fit-content;
+            border: 2px solid black;
+            margin: auto;
+            transition: box-shadow 0.4s, bottom 0.2s, left 0.2s;
+            padding: 0 0.5rem;
+        }
+
+        .footer-div div:hover {
+            box-shadow: -0.4rem 0.4rem 0 0.1rem black;
+            position: relative;
+            bottom: 0.5rem;
+            left: 0.5rem;
+            cursor: pointer;
+        }
+
+        .footer-div a {
+            transition: background-color 0.2s;
+            color: black;
+            padding: 0 0.25rem;
+        }
+
+        body {
+            background-image: url("./background-image/small_steps/small_steps.png")
+        }
+    </style>
+
+<body>
+    <div class="main-div">
+
+        <!-- Heading Div -->
+        <div class="heading-div">
+            Bootstrap Card Carousel Component
+        </div>
+        <!-- Heading Div -->
+
+        <!-- Code for the Carousel Card Component -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- Carousel Component -->
+                    <div id="carouselControl" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <!-- Slide for the first deck of cards -->
+                            <div class="carousel-item active">
+                                <div class="container">
+                                    <div class="row">
+
+                                        <!-- First card of the first slide -->
+                                        <div class="col-lg-4">
+                                            <div class="card">
+                                                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">First Card Heading</h4>
+                                                    <p class="card-text">
+                                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                                        It has roots in a piece of classical Latin literature from 45 BC,
+                                                        making it over 2000 years old.</p>
+                                                    <div class="button-div">
+                                                        <button type="button" class="btn btn-outline-warning">Read More</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- First card of the first slide -->
+
+                                        <!-- Second card of the first slide -->
+                                        <div class="col-lg-4">
+                                            <div class="card">
+                                                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Second Card Heading</h4>
+                                                    <p class="card-text">
+                                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                                        It has roots in a piece of classical Latin literature from 45 BC,
+                                                        making it over 2000 years old.</p>
+                                                    <div class="button-div">
+                                                        <button type="button" class="btn btn-outline-warning">Read More</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Second card of the first slide -->
+
+                                        <!-- Third card of the first slide -->
+                                        <div class="col-lg-4">
+                                            <div class="card">
+                                                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Third Card Heading</h4>
+                                                    <p class="card-text">
+                                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                                        It has roots in a piece of classical Latin literature from 45 BC,
+                                                        making it over 2000 years old.</p>
+                                                    <div class="button-div">
+                                                        <button type="button" class="btn btn-outline-warning">Read More</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Third card of the first slide -->
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide for the first deck of cards -->
+
+                            <!-- Slide for the Second deck of cards -->
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="row">
+
+                                        <!-- First card of the second slide -->
+                                        <div class="col-lg-4">
+                                            <div class="card">
+                                                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">First Card Heading</h4>
+                                                    <p class="card-text">
+                                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                                        It has roots in a piece of classical Latin literature from 45 BC,
+                                                        making it over 2000 years old.</p>
+                                                    <div class="button-div">
+                                                        <button type="button" class="btn btn-outline-warning">Read More</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- First card of the second slide -->
+
+                                        <!-- Second card of the second slide -->
+                                        <div class="col-lg-4">
+                                            <div class="card">
+                                                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Second Card Heading</h4>
+                                                    <p class="card-text">
+                                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                                        It has roots in a piece of classical Latin literature from 45 BC,
+                                                        making it over 2000 years old.</p>
+                                                    <div class="button-div">
+                                                        <button type="button" class="btn btn-outline-warning">Read More</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Second card of the second slide -->
+
+                                        <!-- Third card of the second slide -->
+                                        <div class="col-lg-4">
+                                            <div class="card">
+                                                <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Third Card Heading</h4>
+                                                    <p class="card-text">
+                                                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                                        It has roots in a piece of classical Latin literature from 45 BC,
+                                                        making it over 2000 years old.</p>
+                                                    <div class="button-div">
+                                                        <button type="button" class="btn btn-outline-warning">Read More</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Third card of the second slide -->
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide for the Second deck of cards -->
+
+                        </div>
+                        <a href="#carouselControl" class="carousel-control-prev" data-slide="prev">
+
+                        </a>
+                        <a href="#carouselControl" class="carousel-control-next" data-slide="next">
+                        </a>
+                    </div>
+                    <!-- Carousel Component -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Code for the Carousel Card Component -->
+
+        <!-- Footer Div -->
+        <div class="footer-div">
+            <div title="github.com/AnonSar">
+                Built By: <a href="https://github.com/AnonSar" target="_blank"> AnonSar <i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <!-- Footer Div -->
+    </div>
+</body>
+
+</html>
