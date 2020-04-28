@@ -9,5 +9,10 @@ the user to pay some :dollar:. Me being tight on budget, couldn't afford to pay 
 
 Check it out here: [https://anonsar.github.io/advanced-card-carousel-component-bootstrap/](https://anonsar.github.io/advanced-card-carousel-component-bootstrap/)
 
-#### Happy Coding :octocat:!
+**NOTE**: This pattern used for the background of the website has been downloaded from www.subtlepatterns.com 
 
+#### Happy Coding :octocat:!
+<<<<<<< HEAD
+
+=======
+>>>>>>> e6f41285ad2bc5974e52587d208c5c39cbc57bb7
