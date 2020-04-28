@@ -11,6 +11,6 @@ the user to pay some :dollar:. Me being tight on budget, couldn't afford to pay 
 
 Check it out here: [https://anonsar.github.io/advanced-card-carousel-component-bootstrap/](https://anonsar.github.io/advanced-card-carousel-component-bootstrap/)
 
-**NOTE**: This pattern used for the background of the website has been downloaded from www.subtlepatterns.com 
+**NOTE**: The pattern used for the background of the website has been downloaded from www.subtlepatterns.com 
 
 #### Happy Coding :octocat:!
