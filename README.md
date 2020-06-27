@@ -1,6 +1,6 @@
 # Advanced-Card-Carousel-Component-Bootstrap
 
-![Bootstrap Badge](https://img.shields.io/badge/Bootstrap-Bootstrap%20Carousel%20Component-blueviolet?logo=bootstrap)
+![Bootstrap Badge](https://img.shields.io/badge/Bootstrap-Bootstrap%20Component-blueviolet?logo=bootstrap)
 
 ## Motivation Behind Development </>
 
