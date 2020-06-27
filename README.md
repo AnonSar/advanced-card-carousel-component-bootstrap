@@ -7,12 +7,10 @@ display cards in a single slide of carousel component. Afte searching online for
 Component on [mdbootstrap.com](https://mdbootstrap.com/) which was exactly what I needed needed but unfortunately it required
 the user to pay some :dollar:. Me being tight on budget, couldn't afford to pay for one thus decided to develop one of my own. So here it is, a carousel card component for free of cost.
 
+**Feel free to use this component in your project !**
+
 Check it out here: [https://anonsar.github.io/advanced-card-carousel-component-bootstrap/](https://anonsar.github.io/advanced-card-carousel-component-bootstrap/)
 
-**NOTE**: This pattern used for the background of the website has been downloaded from www.subtlepatterns.com 
+**NOTE**: The pattern used for the background of the website has been downloaded from www.subtlepatterns.com 
 
 #### Happy Coding :octocat:!
-<<<<<<< HEAD
-
-=======
->>>>>>> e6f41285ad2bc5974e52587d208c5c39cbc57bb7
