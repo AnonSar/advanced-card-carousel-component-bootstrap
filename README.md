@@ -1,5 +1,7 @@
 # Advanced-Card-Carousel-Component-Bootstrap
 
+![Bootstrap Badge](https://img.shields.io/badge/Bootstrap-Bootstrap%20Carousel%20Component-blueviolet?logo=bootstrap)
+
 ## Motivation Behind Development </>
 
 A few weeks ago, while working on one of my side projects I felt the need of such a Bootstrap component where the user can
